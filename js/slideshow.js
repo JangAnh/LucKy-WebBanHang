@@ -1,0 +1,1 @@
+document.querySelector("#kho-giao-dien > div.wrap_full > div.why-full > div > div.detail_post.detail_pr > div > div > div > div:nth-child(4) > div.listgiaodien.listgiaodien_more.listgiaodien_re > div:nth-child(4)")

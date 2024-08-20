@@ -1,0 +1,48 @@
+.slider {
+    overflow: hidden;
+    width: 100%;
+    height: 430px;
+    position: relative;
+    top: -24px;
+}
+
+.slider .slide-wrapper {
+    width: 600%; /* 6 hình = 600% */
+    animation: slideshow 15s infinite; /* Cập nhật thời gian cho 6 hình */
+    display: flex;
+}
+
+.slider .slide {
+    width: 16.6666%; /* 100% / 6 = 16.6666% */
+    height: 100%;
+    display: block;
+}
+
+.slider .slide-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    padding-top: 0px;
+}
+
+@keyframes slideshow {
+    0%, 16% {
+        margin-left: 0;
+    }
+    20%, 36% {
+        margin-left: -100%;
+    }
+    40%, 56% {
+        margin-left: -200%;
+    }
+    60%, 76% {
+        margin-left: -300%;
+    }
+    80%, 96% {
+        margin-left: -400%;
+    }
+    100% {
+        margin-left: -500%;
+    }
+}
